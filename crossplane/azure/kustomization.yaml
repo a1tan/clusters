@@ -9,3 +9,4 @@ commonLabels:
 resources:
 - testcluster.yaml
 - deployment.yaml
+- resourcegroup.yaml
