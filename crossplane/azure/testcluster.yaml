@@ -2,6 +2,7 @@ apiVersion: compute.azure.crossplane.io/v1alpha3
 kind: AKSCluster
 metadata:
   name: example-akscluster
+  namespace: azure
   labels:
     example: "true"
 spec:
