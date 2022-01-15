@@ -7,5 +7,5 @@ commonLabels:
   app: azure-clusters
 
 resources:
-- testcluster.yaml
+# - testcluster.yaml
 - deployment.yaml
