@@ -12,4 +12,4 @@ spec:
     serviceEndpoints:
       - service: Microsoft.Sql
   providerConfigRef:
-    name: example
+    name: default

@@ -17,7 +17,7 @@ spec:
   dnsNamePrefix: crossplane-aks
   disableRBAC: false
   providerConfigRef:
-    name: example
+    name: default
   writeConnectionSecretToRef:
     namespace: crossplane-system
     name: example-akscluster
