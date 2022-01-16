@@ -1,8 +1,8 @@
 apiVersion: azure.crossplane.io/v1alpha3
 kind: ResourceGroup
 metadata:
-  name: example-rg
+  name: sample-rg
 spec:
   location: West US 2
   providerConfigRef:
-    name: default2
+    name: azuretestprovider

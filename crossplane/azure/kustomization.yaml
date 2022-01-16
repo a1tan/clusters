@@ -10,6 +10,5 @@ resources:
 - resourcegroup.yaml
 - virtualnetwork.yaml
 - subnet.yaml
-- deployment.yaml
 - testcluster.yaml
 # - deployment.yaml

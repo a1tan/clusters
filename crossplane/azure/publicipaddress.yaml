@@ -1,11 +1,11 @@
 apiVersion: network.azure.crossplane.io/v1alpha3
 kind: PublicIPAddress
 metadata:
-  name: example-public-ip-address
+  name: sample-public-ip-address
 spec:
   forProvider:
     resourceGroupNameRef:
-      name: example-rg
+      name: sample-rg
     allocationMethod: Static
     version: IPv4
     sku:
@@ -13,7 +13,7 @@ spec:
     location: West US 2
     tcpIdleTimeoutInMinutes: 5
     dnsSettings:
-      domainNameLabel: crossplane-example
+      domainNameLabel: crossplane-sample
 # Looks like the following requires the feature "Microsoft.Network/AllowBringYourOwnPublicIpAddress" to be registered for the subscription
 #    ipTags:
 #      - ipTagType: FirstPartyUsage
@@ -21,4 +21,4 @@ spec:
     tags:
       application: crossplane
   providerConfigRef:
-    name: default2
+    name: azuretestprovider
