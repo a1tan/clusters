@@ -21,4 +21,4 @@ spec:
     tags:
       application: crossplane
   providerConfigRef:
-    name: default
+    name: default2
