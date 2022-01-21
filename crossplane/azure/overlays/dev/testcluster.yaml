@@ -1,7 +1,7 @@
 apiVersion: compute.azure.crossplane.io/v1alpha3
 kind: AKSCluster
 metadata:
-  name: sample-akscluster
+  name: dev-sample-akscluster
 spec:
   resourceGroupNameRef:
     name: dev-sample-rg
