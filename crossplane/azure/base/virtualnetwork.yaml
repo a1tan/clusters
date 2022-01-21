@@ -1,7 +1,7 @@
 apiVersion: network.azure.crossplane.io/v1alpha3
 kind: VirtualNetwork
 metadata:
-  name: sample-vn
+  name: dev-sample-vn
 spec:
   resourceGroupNameRef:
     name: sample-rg
