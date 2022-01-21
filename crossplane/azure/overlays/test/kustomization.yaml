@@ -7,7 +7,7 @@ patches:
 - path: subnet.yaml
   target:
     kind: Subnet
-- path: testcuster.yaml
+- path: testcluster.yaml
   target:
     kind: AKSCluster
 - path: virtualnetwork.yaml
