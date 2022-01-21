@@ -1,5 +1,7 @@
 apiVersion: network.azure.crossplane.io/v1alpha3
 kind: Subnet
+metadata:
+  name: sample-sub
 spec:
   resourceGroupNameRef:
     name: test-sample-rg
