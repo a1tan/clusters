@@ -1,8 +1,15 @@
 resources:
   - ../../base
   - namespace.yaml
-  - virtualnetwork.yaml
-  - subnet.yaml
-  - testcluster.yaml
 namespace: azure-dev
 namePrefix: dev-
+patches:
+- path: subnet.yaml
+  target:
+    kind: Subnet
+- path: testcuster.yaml
+  target:
+    kind: AKSCluster
+- path: virtualnetwork.yaml
+  target:
+    kind: VirtualNetwork
