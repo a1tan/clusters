@@ -1,0 +1,9 @@
+apiVersion: compute.azure.crossplane.io/v1alpha3
+kind: AKSCluster
+spec:
+  resourceGroupNameRef:
+    name: dev-sample-rg
+  vnetSubnetIDRef:
+    name: dev-sample-sub
+  writeConnectionSecretToRef:
+    name: dev-sample-akscluster

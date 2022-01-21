@@ -1,0 +1,9 @@
+resources:
+  - ../../base
+  - namespace.yaml
+  - resourcegroup.yaml
+  - virtualnetwork.yaml
+  - subnet.yaml
+  - testcluster.yaml
+namespace: azure-dev
+namePrefix: dev-

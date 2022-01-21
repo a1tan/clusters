@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+metadata:
+  name: clusters
+
+commonLabels:
+  app: azure-clusters
+
+resources:
+- resourcegroup.yaml
+- virtualnetwork.yaml
+- subnet.yaml
+- testcluster.yaml
+# - deployment.yaml
