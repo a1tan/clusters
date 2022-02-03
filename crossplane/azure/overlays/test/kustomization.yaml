@@ -3,13 +3,13 @@ resources:
   - namespace.yaml
 namespace: azure-test
 namePrefix: test-
-patches:
-- path: subnet.yaml
-  target:
-    kind: Subnet
-- path: testcluster.yaml
-  target:
-    kind: AKSCluster
-- path: virtualnetwork.yaml
-  target:
-    kind: VirtualNetwork
+# patches:
+# - path: subnet.yaml
+#   target:
+#     kind: Subnet
+# - path: testcluster.yaml
+#   target:
+#     kind: AKSCluster
+# - path: virtualnetwork.yaml
+#   target:
+#     kind: VirtualNetwork
