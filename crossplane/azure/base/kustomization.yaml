@@ -6,9 +6,9 @@ metadata:
 commonLabels:
   app: azure-clusters
 
-# resources:
-# - resourcegroup.yaml
-# - virtualnetwork.yaml
-# - subnet.yaml
-# - testcluster.yaml
-# - deployment.yaml
+resources:
+- resourcegroup.yaml
+- virtualnetwork.yaml
+- subnet.yaml
+- testcluster.yaml
+- deployment.yaml
