@@ -11,4 +11,3 @@ resources:
 - virtualnetwork.yaml
 - subnet.yaml
 - testcluster.yaml
-- deployment.yaml
