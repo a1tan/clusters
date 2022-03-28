@@ -1,4 +1,3 @@
-$patch: delete
 apiVersion: compute.azure.crossplane.io/v1alpha3
 kind: AKSCluster
 metadata:
