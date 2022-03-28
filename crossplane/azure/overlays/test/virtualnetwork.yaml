@@ -5,3 +5,4 @@ metadata:
 spec:
   resourceGroupNameRef:
     name: test-sample-rg
+  location: West Europe
