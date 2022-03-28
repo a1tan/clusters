@@ -3,5 +3,6 @@ kind: VirtualNetwork
 metadata:
   name: dev-sample-vn
 spec:
+  location: West Europe
   resourceGroupNameRef:
     name: dev-sample-rg
