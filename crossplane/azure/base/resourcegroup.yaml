@@ -3,6 +3,6 @@ kind: ResourceGroup
 metadata:
   name: sample-rg
 spec:
-  location: West US 2
+  location: West Europe
   providerConfigRef:
     name: azuretestprovider
