@@ -9,3 +9,4 @@ spec:
     name: dev-sample-sub
   writeConnectionSecretToRef:
     name: dev-sample-akscluster
+  location: West Europe
