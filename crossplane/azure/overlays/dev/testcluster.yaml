@@ -10,3 +10,4 @@ spec:
   writeConnectionSecretToRef:
     name: dev-sample-akscluster
   location: West Europe
+  version: "1.21.9"
