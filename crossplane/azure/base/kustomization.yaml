@@ -7,7 +7,7 @@ commonLabels:
   app: azure-clusters
 
 resources:
-- resourcegroup.yaml
-- virtualnetwork.yaml
-- subnet.yaml
-- testcluster.yaml
+  - resourcegroup.yaml
+  - virtualnetwork.yaml
+  - subnet.yaml
+  - testcluster.yaml
