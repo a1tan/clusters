@@ -10,5 +10,5 @@ spec:
     targetRevision: HEAD
     path: manifests
   destination:
-    server: https://crossplane-aks-17109b25.hcp.westeurope.azmk8s.io:443
+    server: https://crossplane-aks-7147e89e.hcp.westeurope.azmk8s.io:443
     namespace: default
