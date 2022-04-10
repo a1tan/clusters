@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: sample
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/a1tan/app-ephemeraltest.git
+    targetRevision: HEAD
+    path: manifests
+  destination:
+    server: https://crossplane-aks-17109b25.hcp.westeurope.azmk8s.io:443
+    namespace: default
