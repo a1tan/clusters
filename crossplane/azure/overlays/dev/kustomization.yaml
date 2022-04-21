@@ -13,3 +13,6 @@ patches:
 - path: virtualnetwork.yaml
   target:
     kind: VirtualNetwork
+- path: api-management.yaml
+  target:
+    kind: Management
