@@ -16,3 +16,6 @@ patches:
 - path: api-management.yaml
   target:
     kind: Management
+- path: terra-cluster.yaml
+  target:
+    kind: KubernetesCluster
