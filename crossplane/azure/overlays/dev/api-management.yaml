@@ -1,5 +1,4 @@
-# This example manifest is auto-generated, and has not been tested.
-# Please make the necessary adjustments before using it.
+$patch: delete 
 apiVersion: apimanagement.azure.jet.crossplane.io/v1alpha1
 kind: Management
 metadata:
