@@ -8,7 +8,7 @@ spec:
     name: test-example-kubeconfig
   forProvider:
     resourceGroupNameRef:
-      name: test-sample-rg
+      name: test-terra-sample-rg
     dnsPrefix: "testexampleaks"
     tags:
       purpose: test

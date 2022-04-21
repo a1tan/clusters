@@ -13,3 +13,4 @@ resources:
   - testcluster.yaml
   - api-management.yaml
   - terra-cluster.yaml
+  - terra-resourcegroup.yaml
