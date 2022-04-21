@@ -7,7 +7,7 @@ spec:
     name: dev-example-kubeconfig
   forProvider:
     resourceGroupNameRef:
-      name: dev-example
+      name: dev-sample-rg
     dnsPrefix: "devexampleaks"
     tags:
       purpose: dev

@@ -9,7 +9,7 @@ spec:
   forProvider:
     location: "West Europe"
     resourceGroupNameRef:
-      name: example
+      name: sample-rg
     dnsPrefix: "exampleaks"
     defaultNodePool:
       - name: default
