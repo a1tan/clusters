@@ -12,3 +12,4 @@ resources:
   - subnet.yaml
   - testcluster.yaml
   - api-management.yaml
+  - terra-cluster.yaml

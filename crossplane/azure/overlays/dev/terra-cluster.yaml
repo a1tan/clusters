@@ -1,0 +1,15 @@
+apiVersion: containerservice.azure.jet.crossplane.io/v1alpha2
+kind: KubernetesCluster
+metadata:
+  name: dev-example-aks
+spec:
+  writeConnectionSecretToRef:
+    name: dev-example-kubeconfig
+  forProvider:
+    resourceGroupNameRef:
+      name: dev-example
+    dnsPrefix: "devexampleaks"
+    tags:
+      purpose: dev
+  providerConfigRef:
+    name: azuretestprovider

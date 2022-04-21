@@ -1,0 +1,16 @@
+$patch: delete
+apiVersion: containerservice.azure.jet.crossplane.io/v1alpha2
+kind: KubernetesCluster
+metadata:
+  name: test-example-aks
+spec:
+  writeConnectionSecretToRef:
+    name: test-example-kubeconfig
+  forProvider:
+    resourceGroupNameRef:
+      name: test-example
+    dnsPrefix: "testexampleaks"
+    tags:
+      purpose: test
+  providerConfigRef:
+    name: azuretestprovider

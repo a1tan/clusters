@@ -1,0 +1,13 @@
+$patch: delete 
+apiVersion: apimanagement.azure.jet.crossplane.io/v1alpha1
+kind: Management
+metadata:
+ name: test-example
+spec:
+ forProvider:
+   name: test-example-apim
+   resourceGroupNameRef:
+     name: test-sample-rg
+   skuName: Developer_1
+ providerConfigRef:
+   name: azuretestprovider
